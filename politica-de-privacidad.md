@@ -4,149 +4,186 @@ title: Política de Privacidad — CYBER_ARCADE
 
 # Política de Privacidad — CYBER_ARCADE
 
-**Última actualización:** 7 de julio de 2026
+**Última actualización:** 26 de julio de 2026
 
 Esta Política de Privacidad describe cómo **CYBER_ARCADE** ("la App"), desarrollada por
-Francisco Lopez ("nosotros"), trata la información al usar la
-aplicación. Nos tomamos en serio tu privacidad, especialmente porque la App puede ser usada
-por un público general que incluye menores de edad.
+Francisco Lopez ("nosotros"), trata la información cuando usas la aplicación. Nos tomamos en
+serio tu privacidad, especialmente porque la App tiene un público general que puede incluir
+menores de edad.
 
-## 1. Resumen (estado actual de la App)
+## 1. Resumen
 
-**A fecha de esta versión, CYBER_ARCADE NO recolecta, transmite ni comparte ningún dato personal.**
-La App funciona 100% offline y no se comunica con servidores del Desarrollador ni de terceros.
+CYBER_ARCADE **no tiene cuentas de usuario, no tiene servidores propios y no envía tus
+partidas, récords ni ajustes a ningún sitio**: todo eso vive únicamente en tu dispositivo.
 
-Los únicos datos que la App maneja son:
+La única excepción es la **publicidad**: la versión Android de la App muestra anuncios de
+**Google AdMob**, y para ello el SDK de Google recoge en tu dispositivo ciertos datos técnicos
+y publicitarios (incluido el identificador de publicidad). La sección 3 lo detalla.
 
-| Dato | Dónde se guarda | Se transmite a algún servidor |
+| | |
+|---|---|
+| Datos que se quedan en tu dispositivo | ajustes, récords e iniciales, tickets y premios, misiones, diarias y racha, partidas guardadas |
+| Datos que salen del dispositivo | únicamente los que recoge el SDK de anuncios de Google (sección 3) |
+| Cuentas o registro | no existen |
+| Servidores del Desarrollador | no existen |
+| Publicidad | sí, en la versión Android (las versiones web y de escritorio no muestran anuncios) |
+
+## 2. Datos que se guardan solo en tu dispositivo
+
+| Dato | Dónde se guarda | ¿Se transmite a algún servidor? |
 |---|---|---|
-| Ajustes (tema visual, sonido, vibración) | `localStorage` del dispositivo | No |
-| Récords locales (puntuación, nivel, fecha) | `localStorage` del dispositivo | No |
-| Iniciales de 3 letras introducidas para el récord | `localStorage` del dispositivo | No |
+| Ajustes (tema visual, idioma, sonido, música, vibración, controles, calidad gráfica) | almacenamiento local del dispositivo | No |
+| Récords locales (puntuación, nivel, fecha) e iniciales de 3 letras | almacenamiento local del dispositivo | No |
+| Tickets acumulados y premios cosméticos desbloqueados | almacenamiento local del dispositivo | No |
+| Progreso de misiones, misiones diarias y racha de días | almacenamiento local del dispositivo | No |
+| Partidas guardadas (para "continuar") | almacenamiento local del dispositivo | No |
+| Contadores internos de frecuencia de anuncios | almacenamiento local del dispositivo | No |
 
 Estos datos permanecen exclusivamente en tu dispositivo, no se sincronizan en la nube, no se
 asocian a tu identidad real y desaparecen si desinstalas la App o borras sus datos desde los
 ajustes del sistema operativo. El Desarrollador no tiene acceso a esta información en ningún
 momento.
 
-Esta sección deja de ser exacta en el momento en que se activen las funciones de publicidad
-o de compras descritas más abajo; en ese momento se actualizará la fecha de esta política y,
-si corresponde, se solicitará el consentimiento pertinente antes de activar dichas funciones.
+## 3. Publicidad (Google AdMob)
 
-## 2. Cuando se activen anuncios (Google AdMob)
+La App integra el SDK de **Google AdMob** y muestra anuncios en dos situaciones, **nunca
+durante una partida en curso**:
 
-Si en una futura versión se activa la monetización con anuncios mediante **Google AdMob**,
-esta App pasará a integrar un SDK de terceros que puede recopilar y procesar los siguientes
-tipos de datos, directamente en tu dispositivo, con la finalidad de mostrar y medir anuncios:
+- **Anuncio con recompensa**, siempre opcional y a petición tuya: para continuar después de
+  perder, o para duplicar los tickets ganados en la partida. Se te pregunta antes de mostrarlo
+  y puedes rechazarlo sin perder nada de lo que ya tenías.
+- **Anuncio intersticial**, ocasional, al salir de la pantalla de fin de partida — es decir,
+  después de que hayas visto tu puntuación, nunca tapándola.
+
+Para mostrar y medir esos anuncios, **Google** recoge y procesa en tu dispositivo los
+siguientes tipos de datos:
 
 - **Identificador de publicidad** (Google Advertising ID / AAID) y, en su ausencia,
-  identificadores equivalentes proporcionados por el sistema operativo.
+  identificadores equivalentes proporcionados por el sistema operativo. Por este motivo la App
+  declara el permiso `com.google.android.gms.permission.AD_ID`.
 - **Datos de dispositivo**: modelo, sistema operativo, idioma, zona horaria, resolución de
   pantalla.
 - **Datos de red**: dirección IP (usada para estimación de ubicación aproximada), operador
   móvil, tipo de conexión.
 - **Datos de interacción con anuncios**: impresiones, clics, tiempo de visualización.
-- Opcionalmente, si se activan anuncios basados en intereses, **datos de uso de la App**
-  agregados para personalización publicitaria (salvo que el usuario la desactive donde la
-  plataforma lo permita).
+- **Datos de uso de la App** agregados para personalización publicitaria, únicamente cuando has
+  dado tu consentimiento donde este es exigible (ver 3.1) o no lo has desactivado donde la
+  plataforma lo permite.
 
-Estos datos son recogidos y procesados por **Google** de acuerdo con su propia política de
-privacidad, no por el Desarrollador directamente. Puedes consultar:
+Estos datos son recogidos y tratados por **Google** conforme a sus propias políticas, no por el
+Desarrollador: nosotros no recibimos ni almacenamos ninguno de ellos, solo vemos informes
+agregados de ingresos en el panel de AdMob. Puedes consultar:
 
 - Política de Privacidad de Google: <https://policies.google.com/privacy>
 - Cómo usa Google los datos de las apps que usan sus servicios:
   <https://policies.google.com/technologies/partner-sites>
-- Configuración de anuncios de Google (para gestionar tu personalización de anuncios):
-  <https://adssettings.google.com>
+- Configuración de anuncios de Google: <https://adssettings.google.com>
 
-### 2.1 Consentimiento en el Espacio Económico Europeo (EEA), Reino Unido y Suiza (GDPR / UMP)
+### 3.1 Consentimiento en el Espacio Económico Europeo (EEE), Reino Unido y Suiza (RGPD)
 
-Para usuarios ubicados en el EEA, Reino Unido y Suiza, activaremos el **User Messaging
-Platform (UMP) de Google** (o una solución de gestión de consentimiento equivalente,
-"Consent Management Platform" / CMP certificada por Google) para:
+Para usuarios ubicados en el EEE, Reino Unido y Suiza, la App utiliza el **User Messaging
+Platform (UMP) de Google** — una plataforma de gestión de consentimiento (CMP) certificada por
+Google — que:
 
-- Solicitar consentimiento explícito antes de usar identificadores de publicidad y mostrar
-  anuncios personalizados, conforme al **RGPD (GDPR)** y a la directiva ePrivacy.
-- Ofrecer la opción de anuncios no personalizados ("contextuales") cuando el usuario no
-  consienta el tratamiento de datos para personalización.
-- Registrar y respetar las decisiones de consentimiento del usuario, permitiendo revisarlas
-  o retirarlas posteriormente desde los ajustes de la App.
+- Muestra el formulario de consentimiento **antes** de la primera solicitud de anuncio, para
+  que decidas sobre el uso de identificadores de publicidad y los anuncios personalizados,
+  conforme al **RGPD** y a la directiva ePrivacy.
+- Sirve anuncios no personalizados ("contextuales") si no consientes el tratamiento de datos
+  para personalización.
+- Registra y respeta tu decisión. **Puedes revisarla, cambiarla o retirarla en cualquier
+  momento** desde **AJUSTES → PRIVACIDAD DE ANUNCIOS** dentro de la App (esta opción aparece
+  únicamente para los usuarios de las regiones en las que la normativa la exige).
 
-Mientras esta funcionalidad no esté activa, no se solicita ningún consentimiento porque no
-hay recolección de datos que lo requiera.
+### 3.2 Menores de edad y familias (COPPA / Google Play Families)
 
-### 2.2 Menores de edad y familias (COPPA / Google Play Families)
+CYBER_ARCADE es una app de público general y **no está dirigida a menores de 13 años**, aunque
+al tratarse de juegos arcade sin contenido sensible es razonable que la usen menores bajo
+supervisión de un adulto. Por ello:
 
-CYBER_ARCADE tiene un público general y no está dirigida exclusivamente a menores de 13 años,
-pero al tratarse de juegos arcade sin contenido sensible es razonable que sea usada por
-menores bajo supervisión de un adulto. En caso de activar anuncios:
-
-- Configuraremos las solicitudes de anuncios como aptas para el público general y, si la
-  App se declara dirigida (total o parcialmente) a menores en la Google Play Console, se
-  activará el etiquetado **"Tagged for Child-Directed Treatment"** conforme a **COPPA**
-  (Children's Online Privacy Protection Act, EE. UU.) y las políticas del **Programa
-  Familias de Google Play**, lo que restringe la personalización de anuncios y ciertas
-  categorías de anuncios para esos usuarios.
-- No solicitaremos, de forma intencionada, información personal identificable a menores de
-  edad (nombre real, correo, ubicación precisa, etc.). Las "iniciales" del récord son un
-  campo de texto libre de 3 caracteres, almacenado solo localmente, y no se recomienda ni se
-  exige introducir un nombre real.
+- Todas las solicitudes de anuncios se realizan con la clasificación de contenido **apta para
+  todos los públicos** ("G" / *General audiences*), lo que excluye categorías de anuncios para
+  adultos.
+- Si en algún momento la App se declarase dirigida (total o parcialmente) a menores en Google
+  Play Console, se activaría además el etiquetado **"Tagged for Child-Directed Treatment"**
+  conforme a **COPPA** (EE. UU.) y a las políticas del **Programa Familias de Google Play**, lo
+  que restringe la personalización publicitaria para esos usuarios.
+- No solicitamos, de forma intencionada, información personal identificable a menores de edad
+  (nombre real, correo, ubicación precisa, etc.). Las "iniciales" del récord son un campo libre
+  de 3 caracteres, almacenado solo localmente, y no se pide ni se recomienda usar un nombre real.
 - Si un padre, madre o tutor considera que un menor ha proporcionado datos personales
-  identificables por otra vía, puede contactarnos (ver sección 6) para su eliminación,
-  aunque dado que no existe almacenamiento en servidor, dicha eliminación se resuelve
-  borrando los datos locales de la App en el dispositivo.
+  identificables, puede contactarnos (sección 9). Dado que no existe almacenamiento en servidor,
+  la eliminación se resuelve borrando los datos locales de la App en el dispositivo.
 
-## 3. Cuando se activen compras dentro de la aplicación
+## 4. Notificaciones (recordatorio diario)
 
-La compra opcional "Quitar anuncios" (u otras futuras compras) se procesa íntegramente a
-través de **Google Play Billing** (o el sistema de pago de la tienda correspondiente).
+La App puede enviarte **una notificación local al día** recordándote que tus misiones diarias
+se han renovado o que tienes una racha en curso.
 
-- El Desarrollador **no recibe ni almacena** datos de tarjetas de crédito/débito ni de
-  cuentas bancarias.
-- Google (o Apple, en su caso) puede compartir con el Desarrollador información no sensible
-  de la transacción, como el hecho de que la compra se realizó, un identificador de compra
-  y el importe/moneda, con fines de validación de la compra y soporte al usuario.
-- Para más información sobre cómo Google Play procesa los pagos, consulta su política de
-  privacidad: <https://policies.google.com/privacy>
+- Es **opcional y está desactivada por defecto**: se activa desde AJUSTES, y es entonces cuando
+  se te pide el permiso de notificaciones de Android.
+- Es **100% local**: la programa tu propio dispositivo. No hay notificaciones push, no
+  interviene ningún servidor y no se recoge ni se envía ningún dato para generarla.
+- Puedes desactivarla cuando quieras desde AJUSTES o desde los ajustes de notificaciones de
+  Android.
 
-## 4. Datos que el Desarrollador NO recoge
+## 5. Compras dentro de la aplicación
 
-Para que quede explícito, CYBER_ARCADE no recoge (ni hoy ni en el escenario de monetización
-descrito arriba, salvo cambio futuro que se reflejaría en una nueva versión de esta política):
+**A fecha de esta versión, CYBER_ARCADE no incluye compras dentro de la aplicación.** Todos los
+premios del catálogo (temas, trofeos, pistas de música y demás elementos cosméticos) se
+obtienen jugando, con los tickets que se ganan en las partidas.
+
+Si en el futuro se añade alguna compra (por ejemplo, una compra única para quitar los anuncios),
+se procesará íntegramente a través de **Google Play Billing**:
+
+- El Desarrollador **no recibe ni almacena** datos de tarjetas ni de cuentas bancarias.
+- Google puede compartir con el Desarrollador información no sensible de la transacción (que la
+  compra se realizó, un identificador de compra, el importe y la moneda) con fines de validación
+  y soporte.
+- Esta política y la declaración de Seguridad de los Datos de Google Play se actualizarían antes
+  de activar esa función.
+
+## 6. Datos que el Desarrollador NO recoge
+
+Para que quede explícito, CYBER_ARCADE no recoge en ningún caso:
 
 - Nombre real, correo electrónico o teléfono.
 - Ubicación precisa (GPS).
 - Contactos, fotos, archivos u otros datos del dispositivo.
 - Datos de salud, biométricos o financieros.
-- Ningún dato en servidores propios del Desarrollador (no operamos backend).
+- Ningún dato en servidores propios del Desarrollador (no operamos ningún backend).
 
-## 5. Tus derechos
+## 7. Conservación y eliminación de datos
 
-Dependiendo de tu jurisdicción (por ejemplo, RGPD en la UE/EEE, o la Ley Estatutaria 1581
-de 2012 de protección de datos personales en Colombia), puedes tener derecho a acceder, rectificar, eliminar
-o limitar el tratamiento de tus datos, así como a oponerte a la personalización de anuncios.
+- Los datos locales (ajustes, récords, tickets, progreso) se conservan mientras la App esté
+  instalada. Puedes eliminarlos en cualquier momento desde **Ajustes de Android → Aplicaciones →
+  CYBER_ARCADE → Almacenamiento → Borrar datos**, o desinstalando la App. Esa acción es
+  definitiva: no existe copia en la nube desde la que restaurarlos.
+- Los datos tratados por Google con fines publicitarios se rigen por los plazos de conservación
+  de Google. Puedes restablecer o eliminar tu identificador de publicidad desde **Ajustes de
+  Android → Privacidad → Anuncios**.
 
-- Los datos almacenados localmente (ajustes y récords) los controlas tú directamente:
-  puedes borrarlos desde los ajustes de Android (Ajustes → Apps → CYBER_ARCADE → Almacenamiento
-  → Borrar datos) o desinstalando la App.
-- Para el tratamiento de datos por parte de Google (AdMob / Play Billing), ejerce tus
-  derechos directamente ante Google a través de <https://myaccount.google.com/privacy> o su
-  configuración de anuncios en <https://adssettings.google.com>.
-- Para cualquier otra consulta, puedes escribirnos a la dirección de contacto indicada abajo.
+## 8. Tus derechos
 
-## 6. Contacto
+Dependiendo de tu jurisdicción (por ejemplo, el RGPD en la UE/EEE, o la Ley Estatutaria 1581 de
+2012 de protección de datos personales en Colombia), puedes tener derecho a acceder, rectificar,
+eliminar o limitar el tratamiento de tus datos, así como a oponerte a la personalización de
+anuncios.
+
+- Los datos almacenados localmente los controlas tú directamente (ver sección 7).
+- Sobre el tratamiento que realiza Google (AdMob), ejerce tus derechos ante Google en
+  <https://myaccount.google.com/privacy> o en <https://adssettings.google.com>; y, en el EEE,
+  Reino Unido y Suiza, gestiona tu consentimiento desde AJUSTES → PRIVACIDAD DE ANUNCIOS en la
+  propia App.
+- Para cualquier otra consulta, escríbenos a la dirección de contacto de abajo.
+
+## 9. Contacto
 
 Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en:
 
 **Correo electrónico:** flopez@haipriori.com
 
-## 7. Cambios en esta política
+## 10. Cambios en esta política
 
 Podemos actualizar esta Política de Privacidad cuando cambien las funciones de la App (por
-ejemplo, al activar anuncios o compras). Publicaremos la versión vigente en esta misma URL y
-actualizaremos la fecha en la parte superior del documento. Te recomendamos revisarla
-periódicamente.
-
----
-
-*Consulta también los [Términos y Condiciones de Uso](./terminos-y-condiciones.html) de la App.*
+ejemplo, al activar compras). Publicaremos la versión vigente en esta misma URL y actualizaremos
+la fecha de la parte superior del documento. Te recomendamos revisarla periódicamente.

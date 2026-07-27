@@ -4,12 +4,17 @@ title: Términos y Condiciones de Uso — CYBER_ARCADE
 
 # Términos y Condiciones de Uso — CYBER_ARCADE
 
-**Última actualización:** 7 de julio de 2026
+**Última actualización:** 26 de julio de 2026
 
 Estos Términos y Condiciones ("Términos") regulan el uso de la aplicación móvil **CYBER_ARCADE**
 (la "App"), desarrollada por Francisco Lopez ("nosotros", "el
 Desarrollador"). Al descargar, instalar o usar la App aceptas estos Términos en su totalidad.
 Si no estás de acuerdo, no debes usar la App.
+
+> Este documento es una plantilla de referencia general y no sustituye el asesoramiento de
+> un profesional legal. Antes de publicar la App revisa este texto con un abogado familiarizado
+> con la legislación de Colombia y con las políticas vigentes de las tiendas de
+> aplicaciones (Google Play / App Store).
 
 ## 1. Descripción de la App
 
@@ -50,10 +55,26 @@ distribución dentro de la App sin coste de licencia, sujeto a los términos de 
 Los nombres de los juegos incluidos en la App son genéricos y no pretenden hacer referencia
 ni asociarse con marcas registradas de terceros.
 
-## 4. Compras dentro de la aplicación (in-app purchases)
+## 4. Tickets, premios y compras dentro de la aplicación
 
-La App puede ofrecer, actualmente o en el futuro, una compra única opcional para **eliminar
-los anuncios publicitarios** ("Quitar anuncios"). Al respecto:
+### 4.1 Tickets y premios (sin coste)
+
+La App incluye una moneda virtual llamada **tickets**, que se gana **únicamente jugando**
+(partidas terminadas, misiones, misiones diarias y racha de días). Los tickets se canjean en el
+PRIZE COUNTER por elementos **exclusivamente cosméticos** (temas visuales, trofeos de la
+vitrina, pistas de música y similares), que no alteran la dificultad ni conceden ventaja de
+juego.
+
+- Los tickets y los premios **no se compran con dinero real, no tienen valor monetario, no son
+  canjeables por dinero ni transferibles** fuera de la App.
+- Se guardan solo en tu dispositivo: si borras los datos de la App o la desinstalas, se pierden
+  sin posibilidad de recuperación, y el Desarrollador no puede restituirlos.
+
+### 4.2 Compras dentro de la aplicación
+
+**A fecha de estos Términos, la App no ofrece ninguna compra dentro de la aplicación.** Si en el
+futuro se añade alguna (por ejemplo, una compra única opcional para **eliminar los anuncios
+publicitarios**), se aplicará lo siguiente:
 
 - Todas las compras se procesan a través de **Google Play Billing** (o el sistema de pago
   equivalente de la tienda correspondiente, p. ej. App Store). No almacenamos ni procesamos
@@ -69,22 +90,27 @@ los anuncios publicitarios** ("Quitar anuncios"). Al respecto:
 - Para solicitar un reembolso debes seguir el procedimiento de la tienda donde realizaste la
   compra (Google Play o App Store), ya que el Desarrollador no tiene acceso directo a los
   medios de pago del usuario.
-- La compra "Quitar anuncios" está vinculada a tu cuenta de la tienda y, si el juego lo
-  soporta, puede restaurarse en otros dispositivos mediante la función "Restaurar compras".
+- Una eventual compra "Quitar anuncios" quedaría vinculada a tu cuenta de la tienda y podría
+  restaurarse en otros dispositivos mediante la función "Restaurar compras".
 
 ## 5. Anuncios de terceros
 
-Cuando esta funcionalidad esté activa, la App podrá mostrar anuncios publicitarios
-proporcionados por redes de terceros, incluyendo **Google AdMob**. Estos anuncios son
-gestionados y servidos por dichos proveedores, no por el Desarrollador directamente.
+La versión Android de la App muestra anuncios publicitarios servidos por **Google AdMob** (las
+versiones web y de escritorio no muestran anuncios). Estos anuncios son gestionados y servidos
+por dicho proveedor, no por el Desarrollador directamente.
 
+- Los anuncios aparecen en dos situaciones y **nunca durante una partida en curso**: un anuncio
+  con recompensa, siempre opcional y solicitado por ti (continuar tras perder, o duplicar los
+  tickets de la partida), y un anuncio intersticial ocasional al salir de la pantalla de fin de
+  partida.
 - El contenido de los anuncios es responsabilidad de los anunciantes y de la red publicitaria,
   no del Desarrollador.
-- El uso de servicios de terceros para publicidad implica la recogida de ciertos datos según
-  se describe en la [Política de Privacidad](./politica-de-privacidad.html) de la App y en las
-  políticas propias de dichos proveedores.
-- Puedes eliminar los anuncios mediante la compra in-app descrita en la sección anterior,
-  cuando esté disponible.
+- La publicidad implica la recogida de ciertos datos por parte de Google, según se describe en
+  la [Política de Privacidad](./politica-de-privacidad.html) de la App y en las políticas propias
+  de dicho proveedor. En el EEE, Reino Unido y Suiza puedes gestionar tu consentimiento desde
+  AJUSTES → PRIVACIDAD DE ANUNCIOS dentro de la App.
+- Si un anuncio no puede mostrarse (sin conexión, sin inventario disponible), la App continúa
+  funcionando con normalidad y nunca se te penaliza por ello.
 
 ## 6. Cuentas de usuario y datos
 
